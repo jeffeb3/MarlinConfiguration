@@ -1,0 +1,25 @@
+
+"Marlin/Configuration.h": [
+    [
+        "#define TEMP_SENSOR_0 1",
+        "#define TEMP_SENSOR_0 999 // mpcnc"
+    ],
+    [
+        "#define DUMMY_THERMISTOR_999_VALUE 100",
+        "#define DUMMY_THERMISTOR_999_VALUE 170 // mpcnc",
+    ],
+    [
+        "//#define USE_XMAX_PLUG",
+        "#define USE_XMAX_PLUG // mpcnc",
+    ],
+    [
+        "//#define USE_YMAX_PLUG",
+        "#define USE_YMAX_PLUG // mpcnc",
+    ],
+]
+"Marlin/Configuration_adv.h": [
+    [
+        "//#define X_DUAL_STEPPER_DRIVERS",
+        "#define X_DUAL_STEPPER_DRIVERS // mpcnc"
+    ],
+]
